@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <!-- Start Sidebar -->
+        <aside>
+            <div class="history-api">
+                <div>
+                    <i class="fa-solid fa-arrow-left back-page"></i>
+                    <i class="fa-solid fa-arrow-right forward-page"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rotate-right reload-page"></i>
+                    <i class="fa-regular fa-circle-xmark close-page"></i>
+                </div>
+            </div>
+            <div class="clock">
+                <span class="hours"></span>
+                <span class="minutes"></span>
+                <span class="seconds"></span>
+                <span class="time"></span>
+            </div>
+            <div class="logo-dashboard">
+                <h3 class="h3-one" data-text="Phoenix...">Phoenix...</h3>
+                <h3 class="h3-two">
+                    <p>p</p>
+                    <p>h</p>
+                </h3>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-chart-column fa-fw"></i>
+                        <span class="hid-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="hid-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class="active">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="hid-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hid-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-book fa-fw"></i>
+                        <span class="hid-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-solid fa-users fa-fw"></i>
+                        <span class="hid-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span class="hid-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-solid fa-ticket fa-fw"></i>
+                        <span class="hid-mobile">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <!-- Start Sidebar -->
+        <div class="container-full">
+            <!-- Start Header -->
+            <header>
+                <div class="search">
+                    <input type="search" placeholder="Type A Keyword">
+                    <button class="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="header-content">
+                    <span class="print-page"><i class="fa-solid fa-print fa-lg"></i></span>
+                    <span class="hide-page"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span>
+                    <div class="natification">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                        <span>5</span>
+                    </div>
+                    <div class="logo">
+                        <a href="#"><img src="img/avatar.png"></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="register.html">Create account</a></li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- End Header -->
+            <!-- head page -->
+            <div class="man-title-page">
+                <h1 class="heading-page">Profile</h1>
+                <span class="show-page"><i class="fa-solid fa-down-left-and-up-right-to-center"></i></span>
+            </div>
+            <!-- Start Profile Container -->
+            <div class="profile-cont">
+                <div class="content-profile">
+                    <div class="photo-profile">
+                        <img src="img/avatar.png" alt="">
+                        <h2>Ibrahim Kassab</h2>
+                        <p>Level 20</p>
+                        <div class="progress">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <div class="rate">
+                            <i class="filled fas fa-star filled"></i>
+                            <i class="filled fas fa-star filled"></i>
+                            <i class="filled fas fa-star filled"></i>
+                            <i class="filled fas fa-star filled"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span>550 Rating</span>
+                    </div>
+                    <div class="cont-information">
+                        <div class="info">
+                            <h3>General Information</h3>
+                            <div class="content">
+                                <div>
+                                    <p>Full Name: <span>Ibrahim Kassab</span></p>
+                                    <label class="toggle-label">
+                                        <input type="checkbox" class="toggle-checkbox" checked>
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <p>Gender: <span>Male</span></p>
+                                    <label class="toggle-label">
+                                        <input type="checkbox" class="toggle-checkbox" checked>
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <p>Country: <span>Egypt</span></p>
+                                    <label class="toggle-label">
+                                        <input type="checkbox" class="toggle-checkbox">
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3>Personal Information</h3>
+                            <div class="content">
+                                <div>
+                                    <p>Email: <span>o@nn.sa</span></p>
+                                    <label class="toggle-label">
+                                        <input type="checkbox" class="toggle-checkbox">
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <p>Phone: <span>01011351284</span></p>
+                                    <label class="toggle-label">
+                                        <input type="checkbox" class="toggle-checkbox">
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <p>Date Of Birth: <span>25/10/1982</span></p>
+                                    <label class="toggle-label">
+                                        <input type="checkbox" class="toggle-checkbox" checked>
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3>Job Information</h3>
+                            <div class="content">
+                                <div>
+                                    <p>Job Name: <span>Full Stack Developer</span></p>
+                                        <label class="toggle-label">
+                                            <input type="checkbox" class="toggle-checkbox" >
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <p>Programming Language: <span>PHP</span></p>
+                                        <label class="toggle-label">
+                                            <input type="checkbox" class="toggle-checkbox" checked>
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <p>Years Of Experience: <span>10+</span></p>
+                                        <label class="toggle-label">
+                                            <input type="checkbox" class="toggle-checkbox">
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3>Billing Information</h3>
+                            <div class="content">
+                                <div>
+                                    <p>Payment Method: <span>Paypal</span></p>
+                                        <label class="toggle-label">
+                                            <input type="checkbox" class="toggle-checkbox" checked>
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <p>Email: <span>email@Website.com</span></p>
+                                        <label class="toggle-label">
+                                            <input type="checkbox" class="toggle-checkbox">
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <p>Subscription: <span>Monthly</span></p>
+                                        <label class="toggle-label">
+                                            <input type="checkbox" class="toggle-checkbox" checked>
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-profile">
+                    <div class="my-skills">
+                        <h2>My Skills</h2>
+                        <p>Complete Skills List</p>
+                        <div class="skills">
+                            <div>
+                                <span class="mark">HTML</span>
+                                <span class="mark">Pugjs</span>
+                                <span class="mark">HAML</span>
+                            </div>
+                            <div>
+                                <span class="mark">CSS</span>
+                                <span class="mark">SASS</span>
+                                <span class="mark">Stylus</span>
+                            </div>
+                            <div>
+                                <span class="mark">Javascript</span>
+                                <span class="mark">Typescript</span>
+                            </div>
+                            <div>
+                                <span class="mark">Vuejs</span>
+                                <span class="mark">Reactjs</span>
+                            </div>
+                            <div>
+                                <span class="mark">Jest</span>
+                                <span class="mark">Jasmine</span>
+                            </div>
+                            <div>
+                                <span class="mark">PHP</span>
+                                <span class="mark">Laravel</span>
+                            </div>
+                            <div>
+                                <span class="mark">Python</span>
+                                <span class="mark">Django</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="activities">
+                        <h2>Latest Activities</h2>
+                        <p>Latest Activities Done By The User</p>
+                        <div class="info">
+                            <img src="img/activity-01.png" alt="">
+                            <div class="texts">
+                                <div class="text">
+                                    <h3>Store</h3>
+                                    <p>Bought The Mastering Python Course</p>
+                                </div>
+                                <div class="date">
+                                    <span>18:10</span>
+                                    <p>Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <img src="img/activity-02.png" alt="">
+                            <div class="texts">
+                                <div class="text">
+                                    <h3>Academy</h3>
+                                    <p>Got The PHP Certificate</p>
+                                </div>
+                                <div class="date">
+                                    <span>18:10</span>
+                                    <p>Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <img src="img/activity-03.png" alt="">
+                            <div class="texts">
+                                <div class="text">
+                                    <h3>Badges</h3>
+                                    <p>Unlocked The 10 Skills Badge</p>
+                                </div>
+                                <div class="date">
+                                    <span>18:10</span>
+                                    <p>Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <img src="img/activity-01.png" alt="">
+                            <div class="texts">
+                                <div class="text">
+                                    <h3>Store</h3>
+                                    <p>Bought The Typescript Course</p>
+                                </div>
+                                <div class="date">
+                                    <span>18:10</span>
+                                    <p>Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Profile Container -->
+        </div>
+    </div>
+    <div class="scroll-top">
+        <i class="fa-solid fa-angles-up"></i>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
